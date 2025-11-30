@@ -39,9 +39,7 @@
 
 ---
 
-# 🧪 `.env` Setup
-
-## Backend (`/backend`)
+# 🧪 `.env` Setup ## Backend (`/backend`)
 
 ```bash
 PORT=3000
@@ -79,6 +77,7 @@ cd frontend
 npm install
 npm run dev
 ```
+
 
 
 
