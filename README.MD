@@ -1,8 +1,8 @@
 <h1 align="center">✨ Full-Stack Chat App ✨</h1>
 
 <p align="center">
-  🔗 <a href="https://chatify.app"><b>Live Demo</b></a> •  
-  📁 <a href="https://github.com/username/repo"><b>GitHub Repo</b></a>
+  🔗 <a href="https://chatify-real-time-chat-app-769d.onrender.com"><b>Live Demo</b></a> •  
+  📁 <a href="https://github.com/riteshharge/chatify-real-time-chat-app"><b>GitHub Repo</b></a>
 </p>
 
 ---
@@ -11,15 +11,15 @@
 
 ### 🔐 Login Page
 
-<img src="screenshots/login.png" width="750" />
+<img src="https://github.com/riteshharge/chatify-real-time-chat-app/blob/main/Screenshot/login.png.png?raw=true" width="750" />
 
 ### 💬 Chat Interface
 
-<img src="screenshots/chat.png" width="750" />
+<img src="https://github.com/riteshharge/chatify-real-time-chat-app/blob/main/Screenshot/chat.png.png?raw=true" width="750" />
 
 ### 👤 Profile Image Update
 
-<img src="screenshots/profile.png" width="750" />
+<img src="https://github.com/riteshharge/chatify-real-time-chat-app/blob/main/Screenshot/profile.png.png?raw=true" width="750" />
 
 ---
 
@@ -64,12 +64,15 @@ ARCJET_KEY=your_arcjet_key
 ARCJET_ENV=development
 ```
 
-🔧 Run the Backend
+## 🔧 Run the Backend
+```bash
 cd backend
 npm install
 npm run dev
 
 💻 Run the Frontend
+```bash
 cd frontend
 npm install
 npm run dev
+
