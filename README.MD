@@ -28,27 +28,22 @@
 - 🔐 **Custom JWT Authentication**
 - ⚡ **Real-time Messaging (Socket.io)**
 - 🟢 **Online / Offline Presence**
-- 🔔 **Typing & Notification Sounds (toggle support)**
+- 🔔 **Typing & Notification Sounds**
 - 🗂️ **Cloudinary Image Uploads**
 - 🧱 **MongoDB + Mongoose**
 - 🧰 **Express REST API**
 - 🚦 **Arcjet Rate-Limiting**
-- 🎨 **React + Tailwind CSS + DaisyUI UI**
+- 🎨 **React + Tailwind CSS + DaisyUI**
 - 🧠 **Zustand State Management**
-- 🌐 **Deployment via Render**
+- 🌐 **Deployed on Render**
 
 ---
 
-<<<<<<< HEAD
-
 # 🧪 `.env` Setup
-
-## Frontend(`/frontend`)
-
-VITE_API_URL=https://your-backend.onrender.com/api
 
 ## Backend (`/backend`)
 
+```bash
 PORT=3000
 MONGO_URI=your_mongo_uri_here
 NODE_ENV=development
@@ -67,16 +62,15 @@ CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
 ARCJET_KEY=your_arcjet_key
 ARCJET_ENV=development
+```
 
-````
-
-## 🔧 Run the Backend
+## 🛠 Run the Backend
 
 ```bash
 cd backend
 npm install
 npm run dev
-````
+```
 
 ## 💻 Run the Frontend
 
