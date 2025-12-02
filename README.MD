@@ -41,6 +41,10 @@
 
 # 🧪 `.env` Setup
 
+## Frontend(`/frontend`)
+
+VITE_API_URL=https://your-backend.onrender.com/api
+
 ## Backend (`/backend`)
 
 ```bash
