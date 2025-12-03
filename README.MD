@@ -39,11 +39,10 @@
 
 ---
 
-# 🧪 `.env` Setup
+# 🧪 `.env` Setup (Local Development)
 
 ## Backend (`/backend`)
 
-```bash
 PORT=3000
 MONGO_URI=your_mongo_uri_here
 NODE_ENV=development
@@ -62,7 +61,28 @@ CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
 ARCJET_KEY=your_arcjet_key
 ARCJET_ENV=development
-```
+
+## Frontend (`/frontend`)
+
+VITE_BACKEND_URL=http://localhost:3000/api
+
+---
+
+### 📌 Note:
+
+This setup works for **both cases**:
+
+1. **When frontend and backend are deployed on the same domain** (e.g., `myapp.com` with backend served at `/api`)
+2. **When frontend and backend are deployed on different domains** (e.g., frontend: `myapp.com`, backend: `api.myapp.com`)
+
+Because the axios configuration automatically:
+
+- Uses the URL from `VITE_BACKEND_URL` when provided
+- Falls back to `/api` when deployed on the same domain
+
+So the same codebase works in **local, same-domain production, and separate-domain production** without changes.
+
+---
 
 ## 🛠 Run the Backend
 
