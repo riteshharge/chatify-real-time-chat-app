@@ -1,7 +1,7 @@
 <h1 align="center">✨ Full-Stack Chat App ✨</h1>
 
 <p align="center">
-  🔗 <a href="https://chatify-real-time-chat-app-769d.onrender.com"><b>Live Demo</b></a> •  
+  🔗 <a href="https://chatify-real-time-chat.onrender.com"><b>Live Demo</b></a> •  
   📁 <a href="https://github.com/riteshharge/chatify-real-time-chat-app"><b>GitHub Repo</b></a>
 </p>
 
